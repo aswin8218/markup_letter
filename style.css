@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+  }
+  
+  p {
+    margin-bottom: 15px;
+  }
+  
+  /* Style for the sender's information */
+  p:first-of-type {
+    text-align: right;
+    margin-bottom: 30px;
+  }
+  
+  /* Style for the date */
+  p:nth-of-type(2) {
+    text-align: right;
+    font-weight: bold;
+  }
+  
+  /* Style for the recipient's address */
+  p:nth-of-type(3) {
+    margin-bottom: 30px;
+  }
+  
+  /* Style for the salutation */
+  p:nth-of-type(4) {
+    font-style: italic;
+  }
+  
+  /* Style for the closing */
+  p:last-of-type {
+    margin-top: 30px;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
